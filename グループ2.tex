@@ -1,7 +1,10 @@
 \documentclass[11pt,a4paper]{jsarticle}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[utf8]{inputenc}
+\title{横スクロールアクション仕様書}
 \begin{document}
+\maketitle
+
 \section{要件定義}
 \noindent
 ゲームタイトル「高難度横スクロールアクション（仮）」
@@ -29,28 +32,45 @@
 \item アイテム。ステージ上に存在し、キャラクターが使用すると死亡回数が１減る
 \item ゴール地点の旗（？）。キャラクターの位置が旗と重なるとゲームクリアの判定が返される。
 \item 制限時間。もし時間が０になってしまった場合死亡する。
-\item 死亡と死亡回数。死亡した場合一度進行状況がリセットされ、ステージの最初から再開す
-る。死亡する度に死亡回数が１増加する。
+\item 死亡と死亡回数。死亡した場合一度進行状況がリセットされ、ステージの最初から再開する。死亡する度に死亡回数が１増加する。
 \end{itemize}
 
 \subsection{キャラクターの挙動}
-左右矢印キーをその方向にキャラクターが移動し、スペースキーを押すとキャラクターがジャンプする。
-移動やジャンプには重力と慣性がはたらく。シフトキーと左右矢印キーを同時に押すとキャラクターがその方向に素早く移動する。
-Zキーを押すとキャラクターの前方にエネミーを攻撃する玉を発射する。
-アイテムに触れるとそれを使用する。
+\begin{itemize}
+\item 左右矢印キーをその方向にキャラクターが移動する。
+\item スペースキーを押すとキャラクターがジャンプする。
+\item 移動やジャンプには重力と慣性がはたらく。
+\item シフトキーと左右矢印キーを同時に押すとキャラクターがその方向に素早く移動する。
+\item Zキーを押すとキャラクターの前方にエネミーを攻撃する玉を発射する。
+\item アイテムに触れるとそれを使用する。
+\end{itemize}
 
 \subsection{ゲーム画面の推移}
-まず、プログラムを実行したとき初めに出てくるホーム画面を実装する。ホーム画面ではゲー
-ムを開始する「GAME START」と、プログラム自体を終了する「EXIT」が選択できる。
+まず、プログラムを実行したとき初めに出てくるホーム画面を実装する。
+ホーム画面ではゲームを開始する「GAME START」と、プログラム自体を終了する「EXIT」が選択できる。
 ホーム画面で「START」を選択すると、ゲームのプログラムが実行される。
 プレイヤーはキャラクターを操作して、障害物を避けながらゴールを目指す。
 プレイヤーがゴールへたどり着くと、死亡回数やクリアタイムなどの結果がリザルト画面に表示される。
 Enterキーを入力するとGAME START画面にもどる。
 
+次ページに、画面推移のイメージ図を掲載した。
+
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=120mm]{1.pdf}
-	\includegraphics[width=120mm]{2.pdf}
-	\includegraphics[width=120mm]{3.pdf}
+	\includegraphics[width=110mm]{1.pdf}
+	\caption{タイトル画面のイメージ}
+	\includegraphics[width=110mm]{2.pdf}
+	\caption{ゲーム画面のイメージ}
+	\includegraphics[width=110mm]{3.pdf}
+	\caption{クリア画面のイメージ}
 \end{figure}
+\clearpage
+\section{詳細設計}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=110mm]{class.png}
+	\caption{クラス図}
+\end{figure}
+
 \end{document}

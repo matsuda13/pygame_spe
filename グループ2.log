@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.7.5)  12 JUL 2021 22:38
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.7.5)  17 JUL 2021 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -89,57 +89,86 @@ File: l3backend-dvips.def 2021-05-07 L3 backend support: dvips
 (./グループ2.aux)
 \openout1 = `グループ2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 5.
+(Font)              scaled to size 16.60605pt on input line 6.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 5.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 5.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 5.
+(Font)              scaled to size 16.60605pt on input line 6.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 9.
+(Font)              scaled to size 11.53198pt on input line 6.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 9.
+(Font)              scaled to size 11.53198pt on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 6.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 8.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 8.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 9.
+(Font)              scaled to size 13.83836pt on input line 8.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 9.
- [1
+(Font)              scaled to size 13.83836pt on input line 8.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 12.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 12.
+[1
 
 ]
 File: 1.pdf Graphic file (type pdf)
 <1.pdf>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 61.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 61.
 File: 2.pdf Graphic file (type pdf)
 <2.pdf>
 File: 3.pdf Graphic file (type pdf)
 <3.pdf>
- [2] [3] (./グループ2.aux) ) 
-Here is how much of TeX's memory you used:
- 1072 strings out of 478980
- 15980 string characters out of 5865468
- 330586 words of memory out of 5000000
- 19302 multiletter control sequences out of 15000+600000
- 410831 words of font info for 62 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 57i,5n,66p,213b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on グループ2.dvi (3 pages, 5196 bytes).
+
+LaTeX Warning: Float too large for page by 13.9013pt on input line 66.
+
+[2] [3]
+File: class.png Graphic file (type bmp)
+<class.png>
+ [4
+
+] (./グループ2.aux) ) 
+Here is how much of TeX's memory you used:
+ 1104 strings out of 478980
+ 16365 string characters out of 5865468
+ 328586 words of memory out of 5000000
+ 19323 multiletter control sequences out of 15000+600000
+ 414222 words of font info for 76 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 57i,6n,66p,213b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on グループ2.dvi (4 pages, 5996 bytes).
